@@ -1,0 +1,30 @@
+{
+  "name": "dom-operator",
+  "version": "0.1.0-1",
+  "private": false,
+  "author": {
+    "email": "ll917274996@live.com",
+    "name": "liliang"
+  },
+  "keywords": [
+    "dom-operator",
+    "dom-helper",
+    "dom-tool",
+    "dom"
+  ],
+  "description": "一个简单高性能的dom操作工具包",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel index.html --no-cache",
+    "build": "parcel build index.js --no-source-maps --global domOperator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liliangabc/dom-operator.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liliangabc/dom-operator/issues"
+  },
+  "homepage": "https://github.com/liliangabc/dom-operator#readme"
+}
